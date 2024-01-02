@@ -29,8 +29,7 @@ header {
     margin: auto;
     margin-top:1%;
     font-size: 30px;
-    background-color: #47a7f5;
-    background-size: 100% 100%;
+    background-image: url(images/HeaderImg.png);
     padding-top: 2%;
     padding-bottom: 2%;
     align-items: center;
@@ -65,7 +64,7 @@ button {
     height: 50px;
     font-weight: bold;
     width:150px;
-    font-size: larger;
+    font-size: medium;
     }
 button:hover {
     transform: scale(1.1);
@@ -99,7 +98,7 @@ button:active {
 }
 
 p{
-    font-size:larger;
+    font-size:medium;
     margin:1%;
 }
 
@@ -125,7 +124,7 @@ h1{
 }
 
 footer{
-    background-color: #47a7f5;
+    background-image: url(images/HeaderImg.png);
     padding:1%;
     color: white;
     font-weight:medium;
@@ -138,7 +137,7 @@ aside{
 }
 
 .bluetext{
-    color:blue;
+    color: blue;
     font-weight:normal;
 }
 
@@ -175,10 +174,12 @@ body {
 
  article:hover {
     background: hsl(200 100% 80%);
+    border-radius:15px;
     transition: .3s ease;
 }
 
 td:hover{
     background: hsl(200 100% 80%);
+    border-radius:15px;
     transition: .3s ease;
 }
