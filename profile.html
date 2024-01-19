@@ -5,21 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Members</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="navbar.js"></script>
 </head>
 <body>
     <header>
         <h1><center>Insert Name</center></h1>
     </header>  
-      <nav>
-            <center>
-                <a href="https://www.unicef.org/" id = "img"><button><img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/UNICEF_Logo_%28cropped%29.png" alt="logo" width = 40></button></a>
-                <a href="index.html"><button>Home</button></a>
-                <a href="stories.html"><button>Our Stories</button></a>
-                <a href="events.html"><button>Our Events</button></a>
-                <a href="members.html"><button>Our Members</button></a>
-            </center>
-        </nav>
+    <div class="topnav" id="myTopnav">   
+        <a href="index.html">Home</a>
+        <a href="stories.html">Stories</a>
+        <a href="events.html">Events</a>
+        <a href="members.html">Members</a>
+        <a href="https://www.unicef.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/UNICEF_Logo_%28cropped%29.png" alt="logo" height="20px"></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
         <br clear="all">
 
     <main>
@@ -29,95 +32,50 @@
 
             <br clear="all">
 
-            <section class="bottomleft" background-color="#fff3e0">
+            <section class="bottombig" background-color="#fff3e0">
                 <center><h1>My Stories</h1></center>
 
                 <aside>
                     <a href="media.html">
                     <article>
-                        <img src="images/sample.jpg" alt="Sample Image" width="23%" class="left">
+                        <img src="images/sample.jpg" alt="Sample Image" width="10%" class="left">
                         <h2>Article/Video 1</h2>
                         <p class="bluetext"><em>Date Published</em></p><p class="bluetext"><em>Author(s)</em></p>
-                        <p class="bluetext">[~ 30 word description] Lorem ipsum dolor sit, amet consectetur adipisicing elit. A placeat non quasi, sapiente perspiciatis, aliquam iusto dolore commodi saepe, eius omnis possimus laudantium dicta sequi iure sit.</p>
+                        <p class="bluetext">[~ 40 word description] Lorem ipsum dolor sit, amet consectetur adipisicing elit. A placeat non quasi, sapiente perspiciatis, aliquam iusto dolore commodi saepe, eius omnis possimus laudantium dicta sequi iure sit.</p>
                     </article>
                     </a>
-                    <br>
+                    <br clear="all">
 
                     <a href="media.html">
                         <article>
-                            <img src="images/sample.jpg" alt="Sample Image" width="23%" class="left">
+                            <img src="images/sample.jpg" alt="Sample Image" width="10%" class="left">
                             <h2>Article/Video 2</h2>
                             <p class="bluetext"><em>Date Published</em></p><p class="bluetext"><em>Author(s)</em></p>
-                            <p class="bluetext">[~ 30 word description] Lorem ipsum dolor sit, amet consectetur adipisicing elit. A placeat non quasi, sapiente perspiciatis, aliquam iusto dolore commodi saepe, eius omnis possimus laudantium dicta sequi iure sit.</p>
+                            <p class="bluetext">[~ 40 word description] Lorem ipsum dolor sit, amet consectetur adipisicing elit. A placeat non quasi, sapiente perspiciatis, aliquam iusto dolore commodi saepe, eius omnis possimus laudantium dicta sequi iure sit.</p>
                     </article>
                     </a>
-                    <br>
+                    <br clear="all">
 
                     <a href="media.html">
                         <article>
-                            <img src="images/sample.jpg" alt="Sample Image" width="23%" class="left">
+                            <img src="images/sample.jpg" alt="Sample Image" width="10%" class="left">
                             <h2>Article/Video 3</h2>
                             <p class="bluetext"><em>Date Published</em></p><p class="bluetext"><em>Author(s)</em></p>
-                            <p class="bluetext">[~ 30 word description] Lorem ipsum dolor sit, amet consectetur adipisicing elit. A placeat non quasi, sapiente perspiciatis, aliquam iusto dolore commodi saepe, eius omnis possimus laudantium dicta sequi iure sit.</p>
+                            <p class="bluetext">[~ 40 word description] Lorem ipsum dolor sit, amet consectetur adipisicing elit. A placeat non quasi, sapiente perspiciatis, aliquam iusto dolore commodi saepe, eius omnis possimus laudantium dicta sequi iure sit.</p>
                     </article>
                     </a>
-                    <br>
+                    <br clear="all">
 
                     <a href="media.html">
                         <article>
-                            <img src="images/sample.jpg" alt="Sample Image" width="23%" class="left">
+                            <img src="images/sample.jpg" alt="Sample Image" width="10%" class="left">
                             <h2>Article/Video 4</h2>
                             <p class="bluetext"><em>Date Published</em></p><p class="bluetext"><em>Author(s)</em></p>
-                            <p class="bluetext">[~ 30 word description] Lorem ipsum dolor sit, amet consectetur adipisicing elit. A placeat non quasi, sapiente perspiciatis, aliquam iusto dolore commodi saepe, eius omnis possimus laudantium dicta sequi iure sit.</p>
+                            <p class="bluetext">[~ 40 word description] Lorem ipsum dolor sit, amet consectetur adipisicing elit. A placeat non quasi, sapiente perspiciatis, aliquam iusto dolore commodi saepe, eius omnis possimus laudantium dicta sequi iure sit.</p>
                     </article>
                     </a>
                 </aside>
             </section>
-
-            <section class="bottomright" background-color="#fff3e0">
-                <center><h1>My Events</h1></center>
-                <aside>
-                    <a href="eventsample.html">
-                    <article>
-                        <img src="images/sample.jpg" alt="Sample Image" width="23%" class="left">
-                        <h2>Event 1</h2>
-                        <p class="bluetext"><em>Date(s) of Event</em></p>
-                        <p class="bluetext">[~ 30 word description] Lorem ipsum dolor sit, amet consectetur adipisicing elit. A placeat non quasi, sapiente perspiciatis, aliquam iusto dolore commodi saepe, eius omnis possimus laudantium dicta sequi iure sit.</p>
-                    </article>
-                    </a>
-                    <br>
-
-                    <a href="eventsample.html">
-                    <article>
-                        <img src="images/sample.jpg" alt="Sample Image" width="23%" class="left">
-                        <h2>Event 2</h2>
-                        <p class="bluetext"><em>Date(s) of Event</em></p>
-                        <p class="bluetext">[~ 30 word description] Lorem ipsum dolor sit, amet consectetur adipisicing elit. A placeat non quasi, sapiente perspiciatis, aliquam iusto dolore commodi saepe, eius omnis possimus laudantium dicta sequi iure sit.</p>
-                    </article>
-                    </a>
-                    <br>
-
-                    <a href="eventsample.html">
-                    <article>
-                        <img src="images/sample.jpg" alt="Sample Image" width="23%" class="left">
-                        <h2>Event 3</h2>
-                        <p class="bluetext"><em>Date(s) of Event</em></p>
-                        <p class="bluetext">[~ 30 word description] Lorem ipsum dolor sit, amet consectetur adipisicing elit. A placeat non quasi, sapiente perspiciatis, aliquam iusto dolore commodi saepe, eius omnis possimus laudantium dicta sequi iure sit.</p>
-                    </article>
-                    </a>
-                    <br>
-
-                    <a href="eventsample.html">
-                    <article>
-                        <img src="images/sample.jpg" alt="Sample Image" width="23%" class="left">
-                        <h2>Event 4</h2>
-                        <p class="bluetext"><em>Date(s) of Event</em></p>
-                        <p class="bluetext">[~ 30 word description] Lorem ipsum dolor sit, amet consectetur adipisicing elit. A placeat non quasi, sapiente perspiciatis, aliquam iusto dolore commodi saepe, eius omnis possimus laudantium dicta sequi iure sit.</p>
-                    </article>
-                    </a>
-                </aside>
-            </section>
-
             <br clear="all">
             <br clear="all">
             <br clear="all">

@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Article/Video Sample</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="navbar.js"></script>
 </head>
 <body>
     <div id="wrapper">
-        <nav>
-            <center>
-                <a href="https://www.unicef.org/" id = "img"><button><img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/UNICEF_Logo_%28cropped%29.png" alt="logo" width = 40></button></a>
-                <a href="index.html"><button>Home</button></a>
-                <a href="stories.html"><button>Our Stories</button></a>
-                <a href="events.html"><button>Our Events</button></a>
-                <a href="members.html"><button>Our Members</button></a>
-            </center>
-        </nav>
+        <div class="topnav" id="myTopnav">   
+            <a href="index.html">Home</a>
+            <a href="stories.html">Stories</a>
+            <a href="events.html">Events</a>
+            <a href="members.html">Members</a>
+            <a href="https://www.unicef.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/UNICEF_Logo_%28cropped%29.png" alt="logo" height="20px"></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
 
         <br clear="all">
 
